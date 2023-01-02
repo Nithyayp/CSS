@@ -1,0 +1,12 @@
+:root{
+    --common-color:rgb(162, 201, 234);
+    --back-color: rgb(17, 17, 83);
+}
+p{
+    color: var(--common-color);
+    background-color: var(--back-color);
+}
+h1{
+    color: var(--common-color);
+    background-color: var(--back-color)
+}

@@ -1,0 +1,11 @@
+p{
+    font-size:larger;
+    color:fuchsia;
+}
+span{
+    color: wheat;
+    background-color: yellowgreen;
+}
+div{
+    color:tomato !important;
+}

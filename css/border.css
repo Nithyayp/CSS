@@ -1,0 +1,18 @@
+div{
+    border-top: thick double orange;
+    border-left: 5px dotted violet ;
+    border-right: thin dashed ;
+    border-bottom: solid;
+    border-radius: 20px 0 20px 0;
+    width:150px;
+    height: 150px;
+    
+    
+    
+}
+img{
+    border-radius: 50%;
+    border-left: dotted coral;
+    
+    
+}

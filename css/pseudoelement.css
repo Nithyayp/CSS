@@ -1,0 +1,32 @@
+p::first-letter{
+    color: red;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+}
+p::first-line{
+    color: blue;
+    font-family: monospace;
+    
+}
+p::before{
+    content: url(https://cdn.pixabay.com/photo/2017/09/03/17/26/woman-2711279__340.jpg);
+    cursor: pointer;
+    
+}
+p::after{
+    content: 'Nice Pic';
+    color:greenyellow;
+}
+p::selection{
+    background-color: greenyellow;
+    color: brown;
+}
+ul li::marker{
+    color: crimson;
+    font-size: xx-large;
+}
+ol li::marker{
+    color: yellowgreen;
+    font-weight: bolder;
+}

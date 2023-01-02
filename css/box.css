@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+*{
+    margin: 0;
+}
+img{
+    padding: 30px;
+    border-bottom:10px solid;
+    margin: 50px;
+    border-left:thick solid;
+}
+div{
+    padding: 15px;
+    background-color: aquamarine;
+    margin-bottom: 80px;
+    width: 100px;
+    height: 100px;
+    margin-left: 700px;
+}
+#di{
+    padding: 50px;
+    margin: 50px;
+    background-color: violet;
+    
+}
+p{
+    font-family: 'DynaPuff', cursive;
+    margin-top: 60px;
+}

@@ -1,0 +1,25 @@
+div{
+    background-color: wheat;
+}
+
+/* first child */
+div p:first-child{
+    background-color: brown;
+}
+
+/* lastchild */
+div span:last-child{
+    background-color: blueviolet;
+    text-decoration: underline;
+}
+
+/* n^th child (here we can write odd and even)*/
+div p:nth-child(3){
+    background-color: aqua;
+    text-shadow:2px 3px red;
+}
+
+/* only-child: it should have only one child*/
+section :only-child{
+    background-color: tomato;
+}

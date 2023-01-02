@@ -1,0 +1,56 @@
+.demo_content{
+    width: 200px;
+    border: 3px solid black;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* word wrap properties */
+.sample{
+    margin-top: 30px;
+    width: 100px;
+    border: 1px solid red;
+    word-wrap: break-word;
+}
+
+.test{
+    margin-top: 30px;
+    width: 200px;
+    border: 1px solid rgb(72, 0, 255);
+    word-break:break-all;
+}
+h1{
+    position: absolute;
+    bottom: 300px;
+    left: 600px;
+    text-shadow: 5px 5px midnightblue;
+    letter-spacing: 3px;
+    color: orange;
+    font-size: 60px;
+    animation: name 5s infinite;
+}
+@keyframes name {
+    0%{
+        transform: rotateY(360deg);
+        top: 10px;
+        left: 10px;
+    }
+    25%{
+        color: blueviolet;
+       top: 20px;
+       left: 20px;
+    }
+    50%{
+        right: 10px;
+        bottom: 10px;
+        color: brown;
+    }
+    100%{
+        top:50px;
+        right: 50px;
+    }
+    
+    
+}
+    

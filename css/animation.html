@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: crimson;
+            margin:100px 0 0 100px;
+            animation-name: mydiv; 
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes mydiv {
+        0%{
+            background-color: blue;
+          }
+        100%{
+              border-radius: 50%; background-color: yellow;
+            }
+        }
+        article{
+            width: 200px;
+            height: 200px;
+            position: relative;
+           
+            background-color: blueviolet;
+            animation: art 5s infinite;
+        }
+        @keyframes art {
+            0%{
+                left: 0px;
+                top: 0;
+             }
+             25%{
+                left: 400px;
+                top: 0;
+                background-color: brown;
+             }
+             50%{
+                left: 400px;
+                top: 400px;
+                background-color: rgb(165, 42, 93);
+             }
+             75%{
+                left: 0px;
+                top: 400;
+                background-color: rgb(42, 165, 85);
+             }
+             100%{
+                left:400px;
+                top: 0;
+                background-color: rgb(157, 165, 42);
+             }
+        }
+        .container{
+            width: 100px;
+            height: 100px;
+            background-color: crimson;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+    <article>
+
+    </article>
+    <div class="container">linear</div>
+    <div class="container">ease</div>
+    <div class="container">ease in</div>
+    <div class="container">ease out</div>
+    <div class="container">ease in out</div>
+</body>
+</html>

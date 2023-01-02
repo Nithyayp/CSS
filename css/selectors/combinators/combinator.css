@@ -1,0 +1,23 @@
+/* descendent selector */
+section p{
+    color: crimson;
+}
+
+/* child selector */
+section > p{
+    background-color:aqua;
+}
+
+/* adjacent sibling selector */
+section + p {
+    font-size:  50px;;
+}
+
+p+h2{
+    text-shadow: 2px 3px yellow;
+}
+
+/* general sibilings selector */
+section ~ h1{
+    text-decoration: underline;
+}

@@ -1,0 +1,44 @@
+/* universal */
+/* *{
+    color: orange;
+    background-color: cadetblue;
+} */
+
+/* Element */
+div{
+    font-size: 70px;
+    color: brown;
+}
+
+/* class selector */
+.demo{
+    text-shadow: 2px 3px yellow;
+}
+.demo1{
+    text-shadow: 2px 3px blue;
+}
+
+/* to give similar properties for both clases*/
+.demo , .demo1{
+background-color: salmon;
+}
+
+/* id selector */
+
+/* #test{
+    color: blueviolet;
+} */
+
+#test1{
+    color: orange;
+    background-color: greenyellow ;
+}
+#test2{
+    color:tomato;
+}
+#test3{
+    color: darkgreen;
+}
+.sample{
+    color: red !important;
+}

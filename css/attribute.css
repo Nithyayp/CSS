@@ -1,0 +1,41 @@
+*{
+    text-align: center;
+}
+/* 1. [attribute] */
+a[target]{
+    color: crimson;
+    text-decoration: none;
+}
+
+/* 2. [attribute="value" */
+a[target="_blank"]{
+    color: purple;
+    font-size: 20px;
+}
+
+/* 3. [attribute~="value"]
+note: i = its a flag in RegExp its defines case insensitive 
+*/
+p[class~="demo" i]{
+    text-shadow: 2px 3px fuchsia;
+}
+
+/* 4. [attribute|="value"] */
+div[class|="content"]{
+    background-color: yellow;
+}
+
+/* 5. [attribute^="value"] */
+p[class^="color"]{
+    background-color: brown;
+}
+
+/* 6. [attribute$="value"] */
+li[class$="test"]{
+    border:3px solid green;
+}
+
+/* 7. [attribute*="value"] */
+h2[class*="car"]{
+    color: crimson;
+}

@@ -1,0 +1,34 @@
+a:link{
+    color: brown;
+}
+a:visited{
+    color: greenyellow;
+}
+a:active{
+    color: orange;
+}
+button:hover{
+    color: white;
+    border-radius: 10px;
+    background-color: midnightblue;
+}
+p{
+    display: none;
+}
+div:hover p{
+    display: block;
+    color: brown;
+    text-decoration: underline;
+}
+div{
+    color:brown;
+}
+
+input:hover button{
+     display: block;
+}
+input:focus{
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 10px;
+}

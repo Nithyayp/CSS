@@ -1,0 +1,15 @@
+/* body{
+    background-image: url('https://cdn.pixabay.com/photo/2022/08/16/20/02/wallpaper-7391054__340.jpg');
+    color: aliceblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+} */
+body{
+    background: url(https://cdn.pixabay.com/photo/2021/07/12/23/15/flower-6435416__340.jpg) ,
+    url(https://cdn.pixabay.com/photo/2022/08/10/18/57/lake-7377942__340.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode:lighten;
+
+}

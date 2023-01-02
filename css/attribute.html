@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="attribute.css">
+</head>
+<body>
+    
+    <!-- 1. [attribute] -->
+    <a href="" target="">Home</a>
+    <a href="" target="">Services</a>
+    <a href="" target="">Contact</a>
+    <br>
+
+    <!-- 1. [attribute="value"] -->
+    <a href="" target="">Home</a>
+    <a href="" target="_blank">Services</a>
+    <a href="" target="">Contact</a>
+    <br>
+
+    <!-- 3.[attribute~="value"] -->
+    <p class="demo">Java</p>
+    <p class="test demo">JavaScript</p>
+    <p class="content-demo">Testing</p>
+    <p class="Demo">Database</p>
+
+    <!-- 4. [attribute|="value"] -->
+    <div class="content">JavaScript</div>
+    <div class="custom content">Java</div>
+    <div class="related-content">JFS</div>
+    <div class="contentcontent">SQL</div>
+    <div class="-content">SoftSkills</div>
+    <div class="content-demo">Testing</div>
+    <div class="-content-">Aptitude</div>
+
+    <!-- 5. [attribute^="value"] -->
+    <p class="color">Red</p>
+    <p class="color-1">Green</p>
+    <p class="color_2">Blue</p>
+    <p class="color 3">White</p>
+    <p class="colorO">Orange</p>
+    <p class="Color">Black</p>
+    <p class="Ccolor">Pink</p>
+
+    <!-- 6. [attribute$="value"] -->
+    <ul>
+        <li class="test">MERN</li>
+        <li class="top-test">MEAN</li>
+        <li class="_test">PERN</li>
+        <li class="-test">MVEN</li>
+        <li class=" test">JSFS</li>
+    </ul>
+
+    <!-- 7. [attribute*="value"] -->
+    <h2 class="car">benz</h2>
+    <h2 class="sportscar">bmw</h2>
+    <h2 class="cartop">buggati</h2>
+    <h2 class="1car3">audi</h2>
+    <h2 class="1 car 5">audi</h2>
+    <h2 class="car-race">tata</h2>
+</body>
+</html>

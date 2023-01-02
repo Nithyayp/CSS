@@ -1,0 +1,63 @@
+section{
+width: 100%;
+position: relative;
+background-color: white;
+width: 1000px;
+height: 500px;
+margin: auto;
+}
+article{
+    background-color: gray;
+    position: absolute;
+    width: 900px;
+    height: 350px;
+    text-align: center;
+
+}
+.start{
+    background-color:aliceblue;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 50px;
+    left: 95px;
+    border: 1px solid white;
+    border-radius: 9px;
+    
+}
+.baby{
+    background-color:aliceblue;
+    width: 220px;
+    height: 270px;
+    position: absolute;
+    top: 39px;
+    left: 310px;
+    border: 3px solid blue;
+    border-radius:15px;
+}
+.business{
+    background-color:aliceblue;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 50px;
+    left: 550px;
+    border: 1px solid white;
+    border-radius: 9px;
+}
+#button{
+    background-color: midnightblue;
+    color: aliceblue;
+    
+}
+.rec{
+    color: aliceblue;
+    background-color: palevioletred;
+    width: 130px;
+    position: absolute;
+    top: -30px;
+    left: 40px;
+}
+#button:hover{
+    background-color: green;
+}
